@@ -1,0 +1,49 @@
+[31-Dec-2019 12:54:08 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/minerando/public_html/index.php on line 120
+[31-Dec-2019 12:54:22 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/minerando/public_html/index.php on line 120
+[31-Dec-2019 13:31:36 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/minerando/public_html/index.php on line 120
+[31-Dec-2019 13:32:43 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/minerando/public_html/index.php on line 120
+[31-Dec-2019 13:49:54 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/minerando/public_html/salva.php:6) in /home1/minerando/public_html/salva.php on line 17
+[31-Dec-2019 13:54:35 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/minerando/public_html/salva.php:9) in /home1/minerando/public_html/salva.php on line 18
+[31-Dec-2019 14:48:08 America/Fortaleza] PHP Parse error:  syntax error, unexpected end of file in /home1/minerando/public_html/cron.php on line 18
+[10-Jan-2020 10:34:12 America/Fortaleza] PHP Fatal error:  Uncaught Exception: SSL connect error in /home1/minerando/public_html/TwitterAPIExchange.php:321
+Stack trace:
+#0 /home1/minerando/public_html/cron.php(29): TwitterAPIExchange->performRequest()
+#1 {main}
+  thrown in /home1/minerando/public_html/TwitterAPIExchange.php on line 321
+[11-Jan-2020 01:09:14 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Operation timed out after 10000 milliseconds with 7691 out of 393089 bytes received in /home1/minerando/public_html/TwitterAPIExchange.php:321
+Stack trace:
+#0 /home1/minerando/public_html/cron.php(29): TwitterAPIExchange->performRequest()
+#1 {main}
+  thrown in /home1/minerando/public_html/TwitterAPIExchange.php on line 321
+[11-Jan-2020 18:24:07 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/minerando/public_html/cron.php on line 34
+[14-Jan-2020 03:58:17 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Operation timed out after 10000 milliseconds with 32768 out of 493674 bytes received in /home1/minerando/public_html/TwitterAPIExchange.php:321
+Stack trace:
+#0 /home1/minerando/public_html/cron.php(29): TwitterAPIExchange->performRequest()
+#1 {main}
+  thrown in /home1/minerando/public_html/TwitterAPIExchange.php on line 321
+[14-Jan-2020 04:51:12 America/Fortaleza] PHP Fatal error:  Uncaught Exception: connect() timed out! in /home1/minerando/public_html/TwitterAPIExchange.php:321
+Stack trace:
+#0 /home1/minerando/public_html/cron.php(29): TwitterAPIExchange->performRequest()
+#1 {main}
+  thrown in /home1/minerando/public_html/TwitterAPIExchange.php on line 321
+[14-Jan-2020 14:18:12 America/Fortaleza] PHP Fatal error:  Uncaught Exception: SSL connect error in /home1/minerando/public_html/TwitterAPIExchange.php:321
+Stack trace:
+#0 /home1/minerando/public_html/cron.php(29): TwitterAPIExchange->performRequest()
+#1 {main}
+  thrown in /home1/minerando/public_html/TwitterAPIExchange.php on line 321
+[17-Jan-2020 07:56:21 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Operation timed out after 10000 milliseconds with 187163 out of 361406 bytes received in /home1/minerando/public_html/TwitterAPIExchange.php:321
+Stack trace:
+#0 /home1/minerando/public_html/cron.php(29): TwitterAPIExchange->performRequest()
+#1 {main}
+  thrown in /home1/minerando/public_html/TwitterAPIExchange.php on line 321
+[18-Jan-2020 09:46:12 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Operation timed out after 10000 milliseconds with 7311 out of 468013 bytes received in /home1/minerando/public_html/TwitterAPIExchange.php:321
+Stack trace:
+#0 /home1/minerando/public_html/cron.php(29): TwitterAPIExchange->performRequest()
+#1 {main}
+  thrown in /home1/minerando/public_html/TwitterAPIExchange.php on line 321
+[21-Jan-2020 19:43:06 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/minerando/public_html/cron.php on line 34
+[24-Jan-2020 14:08:11 America/Fortaleza] PHP Fatal error:  Uncaught Exception: SSL connect error in /home1/minerando/public_html/TwitterAPIExchange.php:321
+Stack trace:
+#0 /home1/minerando/public_html/cron.php(29): TwitterAPIExchange->performRequest()
+#1 {main}
+  thrown in /home1/minerando/public_html/TwitterAPIExchange.php on line 321

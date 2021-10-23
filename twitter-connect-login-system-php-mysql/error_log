@@ -1,0 +1,967 @@
+[30-Dec-2019 18:38:11 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 18:38:11 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 18:38:11 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 18:38:11 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 18:38:11 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 18:38:11 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 18:38:11 America/Fortaleza] Connecting to HTTP server IP 104.244.42.194 port 443...
+[30-Dec-2019 18:38:11 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 18:38:11 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 18:38:11 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 18:38:11 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 18:38:11 America/Fortaleza] C Accept: */*
+[30-Dec-2019 18:38:11 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="baa8686eefd30982271266a17b222220",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577741891",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandodados.com.br%2Ftwitter-connect-login-system-php-mysql%2F%2F",oauth_signature="lFZUJxjs9gVB0tWg6F3cVTc08c8%3D"
+[30-Dec-2019 18:38:11 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 18:38:11 America/Fortaleza] C 
+[30-Dec-2019 18:38:11 America/Fortaleza] S HTTP/1.1 403 Forbidden
+[30-Dec-2019 18:38:11 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 18:38:11 America/Fortaleza] S content-length: 203
+[30-Dec-2019 18:38:11 America/Fortaleza] S content-type: application/xml;charset=utf-8
+[30-Dec-2019 18:38:11 America/Fortaleza] S date: Mon, 30 Dec 2019 21:38:11 GMT
+[30-Dec-2019 18:38:11 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 18:38:11 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 21:38:11 GMT
+[30-Dec-2019 18:38:11 America/Fortaleza] S ml: A
+[30-Dec-2019 18:38:11 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 18:38:11 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 18:38:11 America/Fortaleza] S set-cookie: personalization_id="v1_cdqk7Jn4j974NlAKsIiDHg=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:38:11 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:38:11 America/Fortaleza] S set-cookie: guest_id=v1%3A157774189167754584; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:38:11 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:38:11 America/Fortaleza] S status: 403 Forbidden
+[30-Dec-2019 18:38:11 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 18:38:11 America/Fortaleza] S x-connection-hash: c2bdf2fa5c13565dcfc73388cad05b60
+[30-Dec-2019 18:38:11 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 18:38:11 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 18:38:11 America/Fortaleza] S x-response-time: 14
+[30-Dec-2019 18:38:11 America/Fortaleza] S x-transaction: 00f54c2e009ea0c7
+[30-Dec-2019 18:38:11 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 18:38:11 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 18:38:11 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 18:38:11 America/Fortaleza] S 
+[30-Dec-2019 18:38:11 America/Fortaleza] S <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:38:11 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 18:38:11 America/Fortaleza] OAuth client: Could not retrieve the OAuth access token. Error: it was not possible to access the OAuth request token: it was returned an unexpected response status 403 Response: <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:38:33 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 18:38:33 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 18:38:33 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 18:38:33 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 18:38:33 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 18:38:33 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 18:38:33 America/Fortaleza] Connecting to HTTP server IP 104.244.42.194 port 443...
+[30-Dec-2019 18:38:33 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 18:38:33 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 18:38:33 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 18:38:33 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 18:38:33 America/Fortaleza] C Accept: */*
+[30-Dec-2019 18:38:33 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="97c17bfb767174adcd0ea872ef7bdc05",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577741913",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandoemocao.com.br%2Ftwitter-connect-login-system-php-mysql%2F%2F",oauth_signature="ZQ5XOhQuqPMLlORRRSWjd2WHrhM%3D"
+[30-Dec-2019 18:38:33 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 18:38:33 America/Fortaleza] C 
+[30-Dec-2019 18:38:33 America/Fortaleza] S HTTP/1.1 403 Forbidden
+[30-Dec-2019 18:38:33 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 18:38:33 America/Fortaleza] S content-length: 203
+[30-Dec-2019 18:38:33 America/Fortaleza] S content-type: application/xml;charset=utf-8
+[30-Dec-2019 18:38:33 America/Fortaleza] S date: Mon, 30 Dec 2019 21:38:33 GMT
+[30-Dec-2019 18:38:33 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 18:38:33 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 21:38:33 GMT
+[30-Dec-2019 18:38:33 America/Fortaleza] S ml: A
+[30-Dec-2019 18:38:33 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 18:38:33 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 18:38:33 America/Fortaleza] S set-cookie: personalization_id="v1_Cy+h2pgRYlAOi9LAMlUHpA=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:38:33 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:38:33 America/Fortaleza] S set-cookie: guest_id=v1%3A157774191340043210; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:38:33 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:38:33 America/Fortaleza] S status: 403 Forbidden
+[30-Dec-2019 18:38:33 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 18:38:33 America/Fortaleza] S x-connection-hash: 56943bbcf3abb001a6d18a50fafecc02
+[30-Dec-2019 18:38:33 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 18:38:33 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 18:38:33 America/Fortaleza] S x-response-time: 11
+[30-Dec-2019 18:38:33 America/Fortaleza] S x-transaction: 00f82c820022762a
+[30-Dec-2019 18:38:33 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 18:38:33 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 18:38:33 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 18:38:33 America/Fortaleza] S 
+[30-Dec-2019 18:38:33 America/Fortaleza] S <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:38:33 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 18:38:33 America/Fortaleza] OAuth client: Could not retrieve the OAuth access token. Error: it was not possible to access the OAuth request token: it was returned an unexpected response status 403 Response: <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:39:14 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 18:39:14 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 18:39:14 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 18:39:14 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 18:39:14 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 18:39:14 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 18:39:14 America/Fortaleza] Connecting to HTTP server IP 104.244.42.130 port 443...
+[30-Dec-2019 18:39:14 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 18:39:14 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 18:39:14 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 18:39:14 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 18:39:14 America/Fortaleza] C Accept: */*
+[30-Dec-2019 18:39:14 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="7874e8a2aa3fe7983aa105c5978e938f",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577741954",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandodados.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="Jf%2F6h57CSFQbu%2BvvUWzIrnzGqW4%3D"
+[30-Dec-2019 18:39:14 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 18:39:14 America/Fortaleza] C 
+[30-Dec-2019 18:39:14 America/Fortaleza] S HTTP/1.1 403 Forbidden
+[30-Dec-2019 18:39:14 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 18:39:14 America/Fortaleza] S content-length: 203
+[30-Dec-2019 18:39:14 America/Fortaleza] S content-type: application/xml;charset=utf-8
+[30-Dec-2019 18:39:14 America/Fortaleza] S date: Mon, 30 Dec 2019 21:39:14 GMT
+[30-Dec-2019 18:39:14 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 18:39:14 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 21:39:14 GMT
+[30-Dec-2019 18:39:14 America/Fortaleza] S ml: A
+[30-Dec-2019 18:39:14 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 18:39:14 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 18:39:14 America/Fortaleza] S set-cookie: personalization_id="v1_oJLfuZM3vonrLqbYyhYdYQ=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:39:14 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:39:14 America/Fortaleza] S set-cookie: guest_id=v1%3A157774195417658372; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:39:14 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:39:14 America/Fortaleza] S status: 403 Forbidden
+[30-Dec-2019 18:39:14 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 18:39:14 America/Fortaleza] S x-connection-hash: 2c79a07fde7fba07a1b7e7aa94f6b36c
+[30-Dec-2019 18:39:14 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 18:39:14 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 18:39:14 America/Fortaleza] S x-response-time: 11
+[30-Dec-2019 18:39:14 America/Fortaleza] S x-transaction: 00426d6d007011d8
+[30-Dec-2019 18:39:14 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 18:39:14 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 18:39:14 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 18:39:14 America/Fortaleza] S 
+[30-Dec-2019 18:39:14 America/Fortaleza] S <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:39:14 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 18:39:14 America/Fortaleza] OAuth client: Could not retrieve the OAuth access token. Error: it was not possible to access the OAuth request token: it was returned an unexpected response status 403 Response: <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:49:35 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 18:49:35 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 18:49:35 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 18:49:35 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 18:49:35 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 18:49:35 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 18:49:35 America/Fortaleza] Connecting to HTTP server IP 104.244.42.130 port 443...
+[30-Dec-2019 18:49:35 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 18:49:35 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 18:49:35 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 18:49:35 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 18:49:35 America/Fortaleza] C Accept: */*
+[30-Dec-2019 18:49:35 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="9967356fd034be357853ebd17c1a76b7",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577742575",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandodados.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="%2Fr7I77ZKCncdx3Odx61lLDmHlUk%3D"
+[30-Dec-2019 18:49:35 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 18:49:35 America/Fortaleza] C 
+[30-Dec-2019 18:49:35 America/Fortaleza] S HTTP/1.1 403 Forbidden
+[30-Dec-2019 18:49:35 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 18:49:35 America/Fortaleza] S content-length: 203
+[30-Dec-2019 18:49:35 America/Fortaleza] S content-type: application/xml;charset=utf-8
+[30-Dec-2019 18:49:35 America/Fortaleza] S date: Mon, 30 Dec 2019 21:49:35 GMT
+[30-Dec-2019 18:49:35 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 18:49:35 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 21:49:35 GMT
+[30-Dec-2019 18:49:35 America/Fortaleza] S ml: A
+[30-Dec-2019 18:49:35 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 18:49:35 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 18:49:35 America/Fortaleza] S set-cookie: personalization_id="v1_ENB/8rXcWgmEL35rUTXWDQ=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:49:35 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:49:35 America/Fortaleza] S set-cookie: guest_id=v1%3A157774257577649867; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:49:35 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:49:35 America/Fortaleza] S status: 403 Forbidden
+[30-Dec-2019 18:49:35 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 18:49:35 America/Fortaleza] S x-connection-hash: 0b8ffc5510038ba1bca57921ffb0521d
+[30-Dec-2019 18:49:35 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 18:49:35 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 18:49:35 America/Fortaleza] S x-response-time: 11
+[30-Dec-2019 18:49:35 America/Fortaleza] S x-transaction: 009016d4007c085a
+[30-Dec-2019 18:49:35 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 18:49:35 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 18:49:35 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 18:49:35 America/Fortaleza] S 
+[30-Dec-2019 18:49:35 America/Fortaleza] S <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:49:35 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 18:49:35 America/Fortaleza] OAuth client: Could not retrieve the OAuth access token. Error: it was not possible to access the OAuth request token: it was returned an unexpected response status 403 Response: <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:50:38 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 18:50:38 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 18:50:38 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 18:50:38 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 18:50:38 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 18:50:38 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 18:50:38 America/Fortaleza] Connecting to HTTP server IP 104.244.42.130 port 443...
+[30-Dec-2019 18:50:38 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 18:50:38 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 18:50:38 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 18:50:38 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 18:50:38 America/Fortaleza] C Accept: */*
+[30-Dec-2019 18:50:38 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="b7a782c4d52a08f2ada6e94804e98bf6",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577742638",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandodados.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="r%2FZCVNLfpNaSRbU2Ck6oh7ZadH4%3D"
+[30-Dec-2019 18:50:38 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 18:50:38 America/Fortaleza] C 
+[30-Dec-2019 18:50:38 America/Fortaleza] S HTTP/1.1 403 Forbidden
+[30-Dec-2019 18:50:38 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 18:50:38 America/Fortaleza] S content-length: 203
+[30-Dec-2019 18:50:38 America/Fortaleza] S content-type: application/xml;charset=utf-8
+[30-Dec-2019 18:50:38 America/Fortaleza] S date: Mon, 30 Dec 2019 21:50:38 GMT
+[30-Dec-2019 18:50:38 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 18:50:38 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 21:50:38 GMT
+[30-Dec-2019 18:50:38 America/Fortaleza] S ml: A
+[30-Dec-2019 18:50:38 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 18:50:38 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 18:50:38 America/Fortaleza] S set-cookie: personalization_id="v1_N9Ts6woK3iaxN9XYalBxIg=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:50:38 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:50:38 America/Fortaleza] S set-cookie: guest_id=v1%3A157774263830317828; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:50:38 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:50:38 America/Fortaleza] S status: 403 Forbidden
+[30-Dec-2019 18:50:38 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 18:50:38 America/Fortaleza] S x-connection-hash: 81edbe0cd986e6a9c53e539583f2e363
+[30-Dec-2019 18:50:38 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 18:50:38 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 18:50:38 America/Fortaleza] S x-response-time: 11
+[30-Dec-2019 18:50:38 America/Fortaleza] S x-transaction: 0034ac84008d331d
+[30-Dec-2019 18:50:38 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 18:50:38 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 18:50:38 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 18:50:38 America/Fortaleza] S 
+[30-Dec-2019 18:50:38 America/Fortaleza] S <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:50:38 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 18:50:38 America/Fortaleza] OAuth client: Could not retrieve the OAuth access token. Error: it was not possible to access the OAuth request token: it was returned an unexpected response status 403 Response: <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:50:40 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 18:50:40 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 18:50:40 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 18:50:40 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 18:50:40 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 18:50:40 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 18:50:40 America/Fortaleza] Connecting to HTTP server IP 104.244.42.194 port 443...
+[30-Dec-2019 18:50:41 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 18:50:41 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 18:50:41 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 18:50:41 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 18:50:41 America/Fortaleza] C Accept: */*
+[30-Dec-2019 18:50:41 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="79c36036cc7994063446ef6f7b3d0b97",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577742640",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandodados.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="jbZw%2FnUa01JcYnHa7Yf3lZaLqPI%3D"
+[30-Dec-2019 18:50:41 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 18:50:41 America/Fortaleza] C 
+[30-Dec-2019 18:50:41 America/Fortaleza] S HTTP/1.1 403 Forbidden
+[30-Dec-2019 18:50:41 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 18:50:41 America/Fortaleza] S content-length: 203
+[30-Dec-2019 18:50:41 America/Fortaleza] S content-type: application/xml;charset=utf-8
+[30-Dec-2019 18:50:41 America/Fortaleza] S date: Mon, 30 Dec 2019 21:50:41 GMT
+[30-Dec-2019 18:50:41 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 18:50:41 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 21:50:41 GMT
+[30-Dec-2019 18:50:41 America/Fortaleza] S ml: A
+[30-Dec-2019 18:50:41 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 18:50:41 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 18:50:41 America/Fortaleza] S set-cookie: personalization_id="v1_ivLs8KDb7TohNtGTZNknPA=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:50:41 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:50:41 America/Fortaleza] S set-cookie: guest_id=v1%3A157774264111938355; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:50:41 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:50:41 America/Fortaleza] S status: 403 Forbidden
+[30-Dec-2019 18:50:41 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 18:50:41 America/Fortaleza] S x-connection-hash: 1b1a9424e39b6d620dc1576d0fb70755
+[30-Dec-2019 18:50:41 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 18:50:41 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 18:50:41 America/Fortaleza] S x-response-time: 14
+[30-Dec-2019 18:50:41 America/Fortaleza] S x-transaction: 00f744ec007452b8
+[30-Dec-2019 18:50:41 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 18:50:41 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 18:50:41 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 18:50:41 America/Fortaleza] S 
+[30-Dec-2019 18:50:41 America/Fortaleza] S <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:50:41 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 18:50:41 America/Fortaleza] OAuth client: Could not retrieve the OAuth access token. Error: it was not possible to access the OAuth request token: it was returned an unexpected response status 403 Response: <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:53:36 America/Fortaleza] OAuth client: The Process function should not be called again if the OAuth token was already set manually
+[30-Dec-2019 18:53:36 America/Fortaleza] OAuth client: Error: the OAuth token was already set
+[30-Dec-2019 18:54:04 America/Fortaleza] OAuth client: The Process function should not be called again if the OAuth token was already set manually
+[30-Dec-2019 18:54:04 America/Fortaleza] OAuth client: Error: the OAuth token was already set
+[30-Dec-2019 18:54:33 America/Fortaleza] OAuth client: The Process function should not be called again if the OAuth token was already set manually
+[30-Dec-2019 18:54:33 America/Fortaleza] OAuth client: Error: the OAuth token was already set
+[30-Dec-2019 18:54:44 America/Fortaleza] OAuth client: The Process function should not be called again if the OAuth token was already set manually
+[30-Dec-2019 18:54:44 America/Fortaleza] OAuth client: Error: the OAuth token was already set
+[30-Dec-2019 18:55:00 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 18:55:00 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 18:55:00 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 18:55:00 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 18:55:00 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 18:55:00 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 18:55:00 America/Fortaleza] Connecting to HTTP server IP 104.244.42.194 port 443...
+[30-Dec-2019 18:55:01 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 18:55:01 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 18:55:01 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 18:55:01 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 18:55:01 America/Fortaleza] C Accept: */*
+[30-Dec-2019 18:55:01 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="4a117473ebfa3c399eca24d432cb8002",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577742900",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandoemocao.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="4CccUlMZtXuZL6mlNLbgmwQuMG8%3D"
+[30-Dec-2019 18:55:01 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 18:55:01 America/Fortaleza] C 
+[30-Dec-2019 18:55:01 America/Fortaleza] S HTTP/1.1 403 Forbidden
+[30-Dec-2019 18:55:01 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 18:55:01 America/Fortaleza] S content-length: 203
+[30-Dec-2019 18:55:01 America/Fortaleza] S content-type: application/xml;charset=utf-8
+[30-Dec-2019 18:55:01 America/Fortaleza] S date: Mon, 30 Dec 2019 21:55:01 GMT
+[30-Dec-2019 18:55:01 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 18:55:01 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 21:55:01 GMT
+[30-Dec-2019 18:55:01 America/Fortaleza] S ml: A
+[30-Dec-2019 18:55:01 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 18:55:01 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 18:55:01 America/Fortaleza] S set-cookie: personalization_id="v1_nDbx6o8+tZMjf4n5vT+wzA=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:55:01 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:55:01 America/Fortaleza] S set-cookie: guest_id=v1%3A157774290110518687; Max-Age=63072000; Expires=Wed, 29 Dec 2021 21:55:01 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 18:55:01 America/Fortaleza] S status: 403 Forbidden
+[30-Dec-2019 18:55:01 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 18:55:01 America/Fortaleza] S x-connection-hash: 4324e10d7f434686589dc429c08f3bf4
+[30-Dec-2019 18:55:01 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 18:55:01 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 18:55:01 America/Fortaleza] S x-response-time: 11
+[30-Dec-2019 18:55:01 America/Fortaleza] S x-transaction: 007e6dcf005aeb60
+[30-Dec-2019 18:55:01 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 18:55:01 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 18:55:01 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 18:55:01 America/Fortaleza] S 
+[30-Dec-2019 18:55:01 America/Fortaleza] S <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 18:55:01 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 18:55:01 America/Fortaleza] OAuth client: Could not retrieve the OAuth access token. Error: it was not possible to access the OAuth request token: it was returned an unexpected response status 403 Response: <?xml version='1.0' encoding='UTF-8'?><errors><error code="415">Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings</error></errors>
+[30-Dec-2019 19:04:25 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 19:04:25 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 19:04:25 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 19:04:25 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 19:04:25 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 19:04:25 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 19:04:25 America/Fortaleza] Connecting to HTTP server IP 104.244.42.2 port 443...
+[30-Dec-2019 19:04:25 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 19:04:25 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 19:04:25 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 19:04:25 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 19:04:25 America/Fortaleza] C Accept: */*
+[30-Dec-2019 19:04:25 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="83233fd8f77ca412fe1c670f4b551962",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577743465",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandoemocao.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="aRa2%2Fd45v89oUkXvRyCGLtoLBE0%3D"
+[30-Dec-2019 19:04:25 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 19:04:25 America/Fortaleza] C 
+[30-Dec-2019 19:04:26 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 19:04:26 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 19:04:26 America/Fortaleza] S content-length: 121
+[30-Dec-2019 19:04:26 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[30-Dec-2019 19:04:26 America/Fortaleza] S content-type: text/html;charset=utf-8
+[30-Dec-2019 19:04:26 America/Fortaleza] S date: Mon, 30 Dec 2019 22:04:26 GMT
+[30-Dec-2019 19:04:26 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 19:04:26 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 22:04:25 GMT
+[30-Dec-2019 19:04:26 America/Fortaleza] S ml: A
+[30-Dec-2019 19:04:26 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 19:04:26 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 19:04:26 America/Fortaleza] S set-cookie: personalization_id="v1_YSB9Lgg9miZZGtfaq5UnHw=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:04:25 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:04:26 America/Fortaleza] S set-cookie: guest_id=v1%3A157774346598040368; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:04:25 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:04:26 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 19:04:26 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 19:04:26 America/Fortaleza] S x-connection-hash: 65694dd571e3c28fc412f0800a6f3451
+[30-Dec-2019 19:04:26 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 19:04:26 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 19:04:26 America/Fortaleza] S x-response-time: 26
+[30-Dec-2019 19:04:26 America/Fortaleza] S x-transaction: 00915f2c00fee37c
+[30-Dec-2019 19:04:26 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 19:04:26 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 19:04:26 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 19:04:26 America/Fortaleza] S 
+[30-Dec-2019 19:04:26 America/Fortaleza] S oauth_token=s2T6xwAAAAAA03lZAAABb1jWvgk&oauth_token_secret=uIAyuqGFvKkCZAd3zVLTPi9WpeZxz74E&oauth_callback_confirmed=true
+[30-Dec-2019 19:04:26 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 19:04:26 America/Fortaleza] OAuth client: Redirecting to OAuth authorize page https://api.twitter.com/oauth/authenticate?oauth_token=s2T6xwAAAAAA03lZAAABb1jWvgk
+[30-Dec-2019 19:04:37 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 19:04:37 America/Fortaleza] OAuth client: The OAuth token is not yet authorized
+[30-Dec-2019 19:04:37 America/Fortaleza] OAuth client: Checking the OAuth token and verifier
+[30-Dec-2019 19:04:37 America/Fortaleza] OAuth client: Accessing the OAuth access token at https://api.twitter.com/oauth/access_token
+[30-Dec-2019 19:04:37 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 19:04:37 America/Fortaleza] Connecting to HTTP server IP 104.244.42.2 port 443...
+[30-Dec-2019 19:04:37 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] C GET /oauth/access_token HTTP/1.1
+[30-Dec-2019 19:04:37 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 19:04:37 America/Fortaleza] C Accept: */*
+[30-Dec-2019 19:04:37 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="57ee99557f374aa43b435e8ef7bcb99d",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577743477",oauth_version="1.0",oauth_token="s2T6xwAAAAAA03lZAAABb1jWvgk",oauth_verifier="b3esrTqOe52qxxvQKVWulg2gs30XIcxN",oauth_signature="4A9NwMnm0laNqRENicH%2BLco1qkw%3D"
+[30-Dec-2019 19:04:37 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 19:04:37 America/Fortaleza] C 
+[30-Dec-2019 19:04:37 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 19:04:37 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 19:04:37 America/Fortaleza] S content-length: 168
+[30-Dec-2019 19:04:37 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[30-Dec-2019 19:04:37 America/Fortaleza] S content-type: text/html;charset=utf-8
+[30-Dec-2019 19:04:37 America/Fortaleza] S date: Mon, 30 Dec 2019 22:04:37 GMT
+[30-Dec-2019 19:04:37 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 19:04:37 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 22:04:37 GMT
+[30-Dec-2019 19:04:37 America/Fortaleza] S ml: A
+[30-Dec-2019 19:04:37 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 19:04:37 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 19:04:37 America/Fortaleza] S set-cookie: personalization_id="v1_IvVZazCOYDZWw1exvmHUIQ=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:04:37 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] S set-cookie: guest_id=v1%3A157774347728885894; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:04:37 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 19:04:37 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-connection-hash: a31ad319a8ab2e80813bb1b60c5beb15
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-response-time: 296
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-transaction: 00f3f2810045e0eb
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 19:04:37 America/Fortaleza] S 
+[30-Dec-2019 19:04:37 America/Fortaleza] S oauth_token=3065852607-xLetuldhfgfJWpjKqLWX2H6E4YE8ZiMpVoVs2XK&oauth_token_secret=n7DOqNYcfVYiEqUcC53pM7reBEZzbdfXZvBYOhoY39dFA&user_id=3065852607&screen_name=severoweb
+[30-Dec-2019 19:04:37 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] OAuth client: The OAuth token was authorized
+[30-Dec-2019 19:04:37 America/Fortaleza] OAuth client: Accessing the API call at https://api.twitter.com/1.1/account/verify_credentials.json
+[30-Dec-2019 19:04:37 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 19:04:37 America/Fortaleza] Connecting to HTTP server IP 104.244.42.2 port 443...
+[30-Dec-2019 19:04:37 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] C GET /1.1/account/verify_credentials.json HTTP/1.1
+[30-Dec-2019 19:04:37 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 19:04:37 America/Fortaleza] C Accept: */*
+[30-Dec-2019 19:04:37 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="ef448a55eb572d82de47cb641570ba53",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577743477",oauth_version="1.0",oauth_token="3065852607-xLetuldhfgfJWpjKqLWX2H6E4YE8ZiMpVoVs2XK",oauth_signature="OaDybjpigsRKYhnxAktSQl4kXX4%3D"
+[30-Dec-2019 19:04:37 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 19:04:37 America/Fortaleza] C 
+[30-Dec-2019 19:04:37 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 19:04:37 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 19:04:37 America/Fortaleza] S content-disposition: attachment; filename=json.json
+[30-Dec-2019 19:04:37 America/Fortaleza] S content-length: 2312
+[30-Dec-2019 19:04:37 America/Fortaleza] S content-type: application/json;charset=utf-8
+[30-Dec-2019 19:04:37 America/Fortaleza] S date: Mon, 30 Dec 2019 22:04:37 GMT
+[30-Dec-2019 19:04:37 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 19:04:37 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 22:04:37 GMT
+[30-Dec-2019 19:04:37 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 19:04:37 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 19:04:37 America/Fortaleza] S set-cookie: personalization_id="v1_PZ3WReI3uGE4z7UYm4sxig=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:04:37 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] S set-cookie: lang=pt; Path=/
+[30-Dec-2019 19:04:37 America/Fortaleza] S set-cookie: guest_id=v1%3A157774347773927775; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:04:37 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:04:37 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 19:04:37 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-access-level: read-write
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-connection-hash: ca154b258748e1e31a7210066670c9a9
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-rate-limit-limit: 75
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-rate-limit-remaining: 74
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-rate-limit-reset: 1577744377
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-response-time: 41
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-transaction: 00f7a422001e6601
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-twitter-response-tags: BouncerExempt
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 19:04:37 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 19:04:37 America/Fortaleza] S 
+[30-Dec-2019 19:04:37 America/Fortaleza] S {"id":3065852607,"id_str":"3065852607","name":"Rodrigo Severo","screen_name":"severoweb","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":5,"friends_count":119,"listed_count":0,"created_at":"Mon Mar 02 02:39:59 +0000 2015","favourites_count":18,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":5,"lang":null,"status":{"created_at":"Thu Dec 05 17:51:38 +0000 2019","id":1202646725502078976,"id_str":"1202646725502078976","text":"Login with Twitter using PHP - InfoTuts https:\/\/t.co\/xy37glLKX7","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/xy37glLKX7","expanded_url":"http:\/\/www.infotuts.com\/login-twitter-using-php\/","display_url":"infotuts.com\/login-twitter-\u2026","indices":[40,63]}]},"source":"\u003ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"can_media_tag":true,"followed_by":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none","suspended":false,"needs_phone_verification":false}
+[30-Dec-2019 19:04:37 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 19:24:22 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 19:24:22 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 19:24:22 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 19:24:22 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 19:24:22 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 19:24:22 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 19:24:22 America/Fortaleza] Connecting to HTTP server IP 104.244.42.194 port 443...
+[30-Dec-2019 19:24:22 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 19:24:22 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 19:24:22 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 19:24:22 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 19:24:22 America/Fortaleza] C Accept: */*
+[30-Dec-2019 19:24:22 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="42074b5b9deac2272fefde582a974ac4",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577744662",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandoemocao.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="wu%2B6WkF3N%2BW03HaGHcgNlYQOezo%3D"
+[30-Dec-2019 19:24:22 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 19:24:22 America/Fortaleza] C 
+[30-Dec-2019 19:24:22 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 19:24:22 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 19:24:22 America/Fortaleza] S content-length: 121
+[30-Dec-2019 19:24:22 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[30-Dec-2019 19:24:22 America/Fortaleza] S content-type: text/html;charset=utf-8
+[30-Dec-2019 19:24:22 America/Fortaleza] S date: Mon, 30 Dec 2019 22:24:22 GMT
+[30-Dec-2019 19:24:22 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 19:24:22 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 22:24:22 GMT
+[30-Dec-2019 19:24:22 America/Fortaleza] S ml: A
+[30-Dec-2019 19:24:22 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 19:24:22 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 19:24:22 America/Fortaleza] S set-cookie: personalization_id="v1_QX5CD72jPLY58S7SsxKU3Q=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:24:22 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:24:22 America/Fortaleza] S set-cookie: guest_id=v1%3A157774466247967398; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:24:22 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:24:22 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 19:24:22 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 19:24:22 America/Fortaleza] S x-connection-hash: 31ca85a5131a6fa5a6e6b51aec7e0c23
+[30-Dec-2019 19:24:22 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 19:24:22 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 19:24:22 America/Fortaleza] S x-response-time: 24
+[30-Dec-2019 19:24:22 America/Fortaleza] S x-transaction: 00e4a9c0006ef8e3
+[30-Dec-2019 19:24:22 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 19:24:22 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 19:24:22 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 19:24:22 America/Fortaleza] S 
+[30-Dec-2019 19:24:22 America/Fortaleza] S oauth_token=euhKvQAAAAAA03lZAAABb1jo_9w&oauth_token_secret=uUCHHz4JuRufr6JNAcSXQOFwNmGZT8w2&oauth_callback_confirmed=true
+[30-Dec-2019 19:24:22 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 19:24:22 America/Fortaleza] OAuth client: Redirecting to OAuth authorize page https://api.twitter.com/oauth/authenticate?oauth_token=euhKvQAAAAAA03lZAAABb1jo_9w
+[30-Dec-2019 19:24:23 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 19:24:23 America/Fortaleza] OAuth client: The OAuth token is not yet authorized
+[30-Dec-2019 19:24:23 America/Fortaleza] OAuth client: Checking the OAuth token and verifier
+[30-Dec-2019 19:24:23 America/Fortaleza] OAuth client: Accessing the OAuth access token at https://api.twitter.com/oauth/access_token
+[30-Dec-2019 19:24:23 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 19:24:23 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 19:24:23 America/Fortaleza] Connecting to HTTP server IP 104.244.42.2 port 443...
+[30-Dec-2019 19:24:23 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 19:24:23 America/Fortaleza] C GET /oauth/access_token HTTP/1.1
+[30-Dec-2019 19:24:23 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 19:24:23 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 19:24:23 America/Fortaleza] C Accept: */*
+[30-Dec-2019 19:24:23 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="b59cfd41bba9e7057334104478c20062",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577744663",oauth_version="1.0",oauth_token="euhKvQAAAAAA03lZAAABb1jo_9w",oauth_verifier="XN8MaamCVAjwUVLuQVIXyrnkiuHHNftz",oauth_signature="LV6tsleo6Aq%2FunF62VKVR2VP2zQ%3D"
+[30-Dec-2019 19:24:23 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 19:24:23 America/Fortaleza] C 
+[30-Dec-2019 19:24:24 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 19:24:24 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 19:24:24 America/Fortaleza] S content-length: 168
+[30-Dec-2019 19:24:24 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[30-Dec-2019 19:24:24 America/Fortaleza] S content-type: text/html;charset=utf-8
+[30-Dec-2019 19:24:24 America/Fortaleza] S date: Mon, 30 Dec 2019 22:24:24 GMT
+[30-Dec-2019 19:24:24 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 19:24:24 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 22:24:24 GMT
+[30-Dec-2019 19:24:24 America/Fortaleza] S ml: A
+[30-Dec-2019 19:24:24 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 19:24:24 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 19:24:24 America/Fortaleza] S set-cookie: personalization_id="v1_IbrCdqukZHTVnzQGj4w7gw=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:24:24 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:24:24 America/Fortaleza] S set-cookie: guest_id=v1%3A157774466398037633; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:24:24 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:24:24 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 19:24:24 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-connection-hash: d14f6866ac6d37f396db8c647d7fa2f7
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-response-time: 54
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-transaction: 0056f6f500e8e674
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 19:24:24 America/Fortaleza] S 
+[30-Dec-2019 19:24:24 America/Fortaleza] S oauth_token=3065852607-xLetuldhfgfJWpjKqLWX2H6E4YE8ZiMpVoVs2XK&oauth_token_secret=n7DOqNYcfVYiEqUcC53pM7reBEZzbdfXZvBYOhoY39dFA&user_id=3065852607&screen_name=severoweb
+[30-Dec-2019 19:24:24 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 19:24:24 America/Fortaleza] OAuth client: The OAuth token was authorized
+[30-Dec-2019 19:24:24 America/Fortaleza] OAuth client: Accessing the API call at https://api.twitter.com/1.1/account/verify_credentials.json
+[30-Dec-2019 19:24:24 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 19:24:24 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 19:24:24 America/Fortaleza] Connecting to HTTP server IP 104.244.42.130 port 443...
+[30-Dec-2019 19:24:24 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 19:24:24 America/Fortaleza] C GET /1.1/account/verify_credentials.json HTTP/1.1
+[30-Dec-2019 19:24:24 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 19:24:24 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 19:24:24 America/Fortaleza] C Accept: */*
+[30-Dec-2019 19:24:24 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="1a524eaeb9533ef8f007ad59ad71cdaa",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577744664",oauth_version="1.0",oauth_token="3065852607-xLetuldhfgfJWpjKqLWX2H6E4YE8ZiMpVoVs2XK",oauth_signature="9ozKczVRRfPotZog7JQxyZduu7E%3D"
+[30-Dec-2019 19:24:24 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 19:24:24 America/Fortaleza] C 
+[30-Dec-2019 19:24:24 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 19:24:24 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 19:24:24 America/Fortaleza] S content-disposition: attachment; filename=json.json
+[30-Dec-2019 19:24:24 America/Fortaleza] S content-length: 2312
+[30-Dec-2019 19:24:24 America/Fortaleza] S content-type: application/json;charset=utf-8
+[30-Dec-2019 19:24:24 America/Fortaleza] S date: Mon, 30 Dec 2019 22:24:24 GMT
+[30-Dec-2019 19:24:24 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 19:24:24 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 22:24:24 GMT
+[30-Dec-2019 19:24:24 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 19:24:24 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 19:24:24 America/Fortaleza] S set-cookie: personalization_id="v1_kwrKWI+ENk5mH0nHC2qsSg=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:24:24 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:24:24 America/Fortaleza] S set-cookie: lang=pt; Path=/
+[30-Dec-2019 19:24:24 America/Fortaleza] S set-cookie: guest_id=v1%3A157774466419681063; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:24:24 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:24:24 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 19:24:24 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-access-level: read-write
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-connection-hash: f030b127bdec355e3e5ea17160a49df0
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-rate-limit-limit: 75
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-rate-limit-remaining: 74
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-rate-limit-reset: 1577745564
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-response-time: 45
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-transaction: 00e7c9d000eada7d
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-twitter-response-tags: BouncerExempt
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 19:24:24 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 19:24:24 America/Fortaleza] S 
+[30-Dec-2019 19:24:24 America/Fortaleza] S {"id":3065852607,"id_str":"3065852607","name":"Rodrigo Severo","screen_name":"severoweb","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":5,"friends_count":119,"listed_count":0,"created_at":"Mon Mar 02 02:39:59 +0000 2015","favourites_count":18,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":5,"lang":null,"status":{"created_at":"Thu Dec 05 17:51:38 +0000 2019","id":1202646725502078976,"id_str":"1202646725502078976","text":"Login with Twitter using PHP - InfoTuts https:\/\/t.co\/xy37glLKX7","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/xy37glLKX7","expanded_url":"http:\/\/www.infotuts.com\/login-twitter-using-php\/","display_url":"infotuts.com\/login-twitter-\u2026","indices":[40,63]}]},"source":"\u003ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"can_media_tag":true,"followed_by":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none","suspended":false,"needs_phone_verification":false}
+[30-Dec-2019 19:24:24 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 19:26:10 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 19:26:10 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 19:26:10 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 19:26:10 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 19:26:10 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 19:26:10 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 19:26:10 America/Fortaleza] Connecting to HTTP server IP 104.244.42.130 port 443...
+[30-Dec-2019 19:26:10 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 19:26:10 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 19:26:10 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 19:26:10 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 19:26:10 America/Fortaleza] C Accept: */*
+[30-Dec-2019 19:26:10 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="67a33a89e7a782e44aa81d18506769a4",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577744770",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandoemocao.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="vN2Rx%2FYH27TKbpCmBCMMpI1g5uE%3D"
+[30-Dec-2019 19:26:10 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 19:26:10 America/Fortaleza] C 
+[30-Dec-2019 19:26:10 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 19:26:10 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 19:26:10 America/Fortaleza] S content-length: 121
+[30-Dec-2019 19:26:10 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[30-Dec-2019 19:26:10 America/Fortaleza] S content-type: text/html;charset=utf-8
+[30-Dec-2019 19:26:10 America/Fortaleza] S date: Mon, 30 Dec 2019 22:26:10 GMT
+[30-Dec-2019 19:26:10 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 19:26:10 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 22:26:10 GMT
+[30-Dec-2019 19:26:10 America/Fortaleza] S ml: A
+[30-Dec-2019 19:26:10 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 19:26:10 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 19:26:10 America/Fortaleza] S set-cookie: personalization_id="v1_8Xd6E+7YsxVliIvK3s02QQ=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:26:10 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:26:10 America/Fortaleza] S set-cookie: guest_id=v1%3A157774477058556998; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:26:10 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:26:10 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 19:26:10 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 19:26:10 America/Fortaleza] S x-connection-hash: 460cfe520a687f3651ac395e80a23e6a
+[30-Dec-2019 19:26:10 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 19:26:10 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 19:26:10 America/Fortaleza] S x-response-time: 18
+[30-Dec-2019 19:26:10 America/Fortaleza] S x-transaction: 004e8505008d8e3d
+[30-Dec-2019 19:26:10 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 19:26:10 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 19:26:10 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 19:26:10 America/Fortaleza] S 
+[30-Dec-2019 19:26:10 America/Fortaleza] S oauth_token=cy_K2gAAAAAA03lZAAABb1jqpiI&oauth_token_secret=2NvamKnZygVNPQKB4fv1pDCpdfnG8Ix0&oauth_callback_confirmed=true
+[30-Dec-2019 19:26:10 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 19:26:10 America/Fortaleza] OAuth client: Redirecting to OAuth authorize page https://api.twitter.com/oauth/authenticate?oauth_token=cy_K2gAAAAAA03lZAAABb1jqpiI
+[30-Dec-2019 19:26:11 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 19:26:11 America/Fortaleza] OAuth client: The OAuth token is not yet authorized
+[30-Dec-2019 19:26:11 America/Fortaleza] OAuth client: Checking the OAuth token and verifier
+[30-Dec-2019 19:26:11 America/Fortaleza] OAuth client: Accessing the OAuth access token at https://api.twitter.com/oauth/access_token
+[30-Dec-2019 19:26:11 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 19:26:11 America/Fortaleza] Connecting to HTTP server IP 104.244.42.2 port 443...
+[30-Dec-2019 19:26:11 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] C GET /oauth/access_token HTTP/1.1
+[30-Dec-2019 19:26:11 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 19:26:11 America/Fortaleza] C Accept: */*
+[30-Dec-2019 19:26:11 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="d93e4367e77a72c2aa66bbfa67b865b6",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577744771",oauth_version="1.0",oauth_token="cy_K2gAAAAAA03lZAAABb1jqpiI",oauth_verifier="hMKoovBOSjvm1x2erxXAksC6dvHmPQgq",oauth_signature="TTdTYxY8kPuFSA51mn3Gh1MbUas%3D"
+[30-Dec-2019 19:26:11 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 19:26:11 America/Fortaleza] C 
+[30-Dec-2019 19:26:11 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 19:26:11 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 19:26:11 America/Fortaleza] S content-length: 168
+[30-Dec-2019 19:26:11 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[30-Dec-2019 19:26:11 America/Fortaleza] S content-type: text/html;charset=utf-8
+[30-Dec-2019 19:26:11 America/Fortaleza] S date: Mon, 30 Dec 2019 22:26:11 GMT
+[30-Dec-2019 19:26:11 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 19:26:11 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 22:26:11 GMT
+[30-Dec-2019 19:26:11 America/Fortaleza] S ml: A
+[30-Dec-2019 19:26:11 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 19:26:11 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 19:26:11 America/Fortaleza] S set-cookie: personalization_id="v1_3FgarCHJXUY6Qy46SA9xfg=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:26:11 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] S set-cookie: guest_id=v1%3A157774477157182798; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:26:11 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 19:26:11 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-connection-hash: ca67aaf99373ff38e3eaa58f82850952
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-response-time: 53
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-transaction: 00956dc500054fe3
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 19:26:11 America/Fortaleza] S 
+[30-Dec-2019 19:26:11 America/Fortaleza] S oauth_token=3065852607-xLetuldhfgfJWpjKqLWX2H6E4YE8ZiMpVoVs2XK&oauth_token_secret=n7DOqNYcfVYiEqUcC53pM7reBEZzbdfXZvBYOhoY39dFA&user_id=3065852607&screen_name=severoweb
+[30-Dec-2019 19:26:11 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] OAuth client: The OAuth token was authorized
+[30-Dec-2019 19:26:11 America/Fortaleza] OAuth client: Accessing the API call at https://api.twitter.com/1.1/account/verify_credentials.json
+[30-Dec-2019 19:26:11 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 19:26:11 America/Fortaleza] Connecting to HTTP server IP 104.244.42.130 port 443...
+[30-Dec-2019 19:26:11 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] C GET /1.1/account/verify_credentials.json HTTP/1.1
+[30-Dec-2019 19:26:11 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 19:26:11 America/Fortaleza] C Accept: */*
+[30-Dec-2019 19:26:11 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="3445f213fe67f273d31a1494cb3b7327",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577744771",oauth_version="1.0",oauth_token="3065852607-xLetuldhfgfJWpjKqLWX2H6E4YE8ZiMpVoVs2XK",oauth_signature="HI08EKTwmB4JK2or0Kv53pSF2yU%3D"
+[30-Dec-2019 19:26:11 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 19:26:11 America/Fortaleza] C 
+[30-Dec-2019 19:26:11 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 19:26:11 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 19:26:11 America/Fortaleza] S content-disposition: attachment; filename=json.json
+[30-Dec-2019 19:26:11 America/Fortaleza] S content-length: 2312
+[30-Dec-2019 19:26:11 America/Fortaleza] S content-type: application/json;charset=utf-8
+[30-Dec-2019 19:26:11 America/Fortaleza] S date: Mon, 30 Dec 2019 22:26:11 GMT
+[30-Dec-2019 19:26:11 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 19:26:11 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 22:26:11 GMT
+[30-Dec-2019 19:26:11 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 19:26:11 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 19:26:11 America/Fortaleza] S set-cookie: personalization_id="v1_yZQ3X0bM7dsC0cBHubwDoQ=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:26:11 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] S set-cookie: lang=pt; Path=/
+[30-Dec-2019 19:26:11 America/Fortaleza] S set-cookie: guest_id=v1%3A157774477177969743; Max-Age=63072000; Expires=Wed, 29 Dec 2021 22:26:11 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 19:26:11 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 19:26:11 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-access-level: read-write
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-connection-hash: eacee90c876d8db5b5f287033b2c4227
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-rate-limit-limit: 75
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-rate-limit-remaining: 73
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-rate-limit-reset: 1577745564
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-response-time: 33
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-transaction: 004273890090e67b
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-twitter-response-tags: BouncerExempt
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 19:26:11 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 19:26:11 America/Fortaleza] S 
+[30-Dec-2019 19:26:11 America/Fortaleza] S {"id":3065852607,"id_str":"3065852607","name":"Rodrigo Severo","screen_name":"severoweb","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":5,"friends_count":119,"listed_count":0,"created_at":"Mon Mar 02 02:39:59 +0000 2015","favourites_count":18,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":5,"lang":null,"status":{"created_at":"Thu Dec 05 17:51:38 +0000 2019","id":1202646725502078976,"id_str":"1202646725502078976","text":"Login with Twitter using PHP - InfoTuts https:\/\/t.co\/xy37glLKX7","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/xy37glLKX7","expanded_url":"http:\/\/www.infotuts.com\/login-twitter-using-php\/","display_url":"infotuts.com\/login-twitter-\u2026","indices":[40,63]}]},"source":"\u003ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"can_media_tag":true,"followed_by":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none","suspended":false,"needs_phone_verification":false}
+[30-Dec-2019 19:26:11 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 20:30:56 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 20:30:56 America/Fortaleza] OAuth client: The OAuth access token is not set
+[30-Dec-2019 20:30:56 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[30-Dec-2019 20:30:56 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[30-Dec-2019 20:30:56 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 20:30:56 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 20:30:56 America/Fortaleza] Connecting to HTTP server IP 104.244.42.194 port 443...
+[30-Dec-2019 20:30:56 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 20:30:56 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[30-Dec-2019 20:30:56 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 20:30:56 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 20:30:56 America/Fortaleza] C Accept: */*
+[30-Dec-2019 20:30:56 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="ed33934f00c6fecfa2a295a3a771c213",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577748656",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandoemocao.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="TH2yADB1XNbNU5tF5j%2B249DQHk4%3D"
+[30-Dec-2019 20:30:56 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 20:30:56 America/Fortaleza] C 
+[30-Dec-2019 20:30:57 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 20:30:57 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 20:30:57 America/Fortaleza] S content-length: 121
+[30-Dec-2019 20:30:57 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[30-Dec-2019 20:30:57 America/Fortaleza] S content-type: text/html;charset=utf-8
+[30-Dec-2019 20:30:57 America/Fortaleza] S date: Mon, 30 Dec 2019 23:30:57 GMT
+[30-Dec-2019 20:30:57 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 20:30:57 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 23:30:57 GMT
+[30-Dec-2019 20:30:57 America/Fortaleza] S ml: A
+[30-Dec-2019 20:30:57 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 20:30:57 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 20:30:57 America/Fortaleza] S set-cookie: personalization_id="v1_2zAiApbaXdTq6ijCRrmFHA=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 23:30:57 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 20:30:57 America/Fortaleza] S set-cookie: guest_id=v1%3A157774865705325459; Max-Age=63072000; Expires=Wed, 29 Dec 2021 23:30:57 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 20:30:57 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 20:30:57 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 20:30:57 America/Fortaleza] S x-connection-hash: efc7a34ee6b6a65280c44f3f7364edbf
+[30-Dec-2019 20:30:57 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 20:30:57 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 20:30:57 America/Fortaleza] S x-response-time: 134
+[30-Dec-2019 20:30:57 America/Fortaleza] S x-transaction: 00b2a480008a23aa
+[30-Dec-2019 20:30:57 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 20:30:57 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 20:30:57 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 20:30:57 America/Fortaleza] S 
+[30-Dec-2019 20:30:57 America/Fortaleza] S oauth_token=nus8zAAAAAAA03lZAAABb1kl86o&oauth_token_secret=ajWS6OmTxhqVrfXBEFXQqXriDCicp3Yg&oauth_callback_confirmed=true
+[30-Dec-2019 20:30:57 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 20:30:57 America/Fortaleza] OAuth client: Redirecting to OAuth authorize page https://api.twitter.com/oauth/authenticate?oauth_token=nus8zAAAAAAA03lZAAABb1kl86o
+[30-Dec-2019 20:30:59 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[30-Dec-2019 20:30:59 America/Fortaleza] OAuth client: The OAuth token is not yet authorized
+[30-Dec-2019 20:30:59 America/Fortaleza] OAuth client: Checking the OAuth token and verifier
+[30-Dec-2019 20:30:59 America/Fortaleza] OAuth client: Accessing the OAuth access token at https://api.twitter.com/oauth/access_token
+[30-Dec-2019 20:30:59 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 20:30:59 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 20:30:59 America/Fortaleza] Connecting to HTTP server IP 104.244.42.194 port 443...
+[30-Dec-2019 20:30:59 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 20:30:59 America/Fortaleza] C GET /oauth/access_token HTTP/1.1
+[30-Dec-2019 20:30:59 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 20:30:59 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 20:30:59 America/Fortaleza] C Accept: */*
+[30-Dec-2019 20:30:59 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="824c4486213f072ffbe3165c9a003d3a",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577748659",oauth_version="1.0",oauth_token="nus8zAAAAAAA03lZAAABb1kl86o",oauth_verifier="yoUdDsdy5bnMnx70vNRTeuM8oqCAx381",oauth_signature="g13s0VhBd7paOv3ELHT5B7hCA2o%3D"
+[30-Dec-2019 20:30:59 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 20:30:59 America/Fortaleza] C 
+[30-Dec-2019 20:30:59 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 20:30:59 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 20:30:59 America/Fortaleza] S content-length: 168
+[30-Dec-2019 20:30:59 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[30-Dec-2019 20:30:59 America/Fortaleza] S content-type: text/html;charset=utf-8
+[30-Dec-2019 20:30:59 America/Fortaleza] S date: Mon, 30 Dec 2019 23:30:59 GMT
+[30-Dec-2019 20:30:59 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 20:30:59 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 23:30:59 GMT
+[30-Dec-2019 20:30:59 America/Fortaleza] S ml: A
+[30-Dec-2019 20:30:59 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 20:30:59 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 20:30:59 America/Fortaleza] S set-cookie: personalization_id="v1_XwVIng8zhP67kndfctzGHA=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 23:30:59 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 20:30:59 America/Fortaleza] S set-cookie: guest_id=v1%3A157774865933005707; Max-Age=63072000; Expires=Wed, 29 Dec 2021 23:30:59 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 20:30:59 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 20:30:59 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 20:30:59 America/Fortaleza] S x-connection-hash: 827f3206bd86beb2bc10fa56d9e84c2b
+[30-Dec-2019 20:30:59 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 20:30:59 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 20:30:59 America/Fortaleza] S x-response-time: 619
+[30-Dec-2019 20:30:59 America/Fortaleza] S x-transaction: 001487570040f520
+[30-Dec-2019 20:30:59 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 20:30:59 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[30-Dec-2019 20:30:59 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 20:30:59 America/Fortaleza] S 
+[30-Dec-2019 20:30:59 America/Fortaleza] S oauth_token=3065852607-xLetuldhfgfJWpjKqLWX2H6E4YE8ZiMpVoVs2XK&oauth_token_secret=n7DOqNYcfVYiEqUcC53pM7reBEZzbdfXZvBYOhoY39dFA&user_id=3065852607&screen_name=severoweb
+[30-Dec-2019 20:30:59 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[30-Dec-2019 20:30:59 America/Fortaleza] OAuth client: The OAuth token was authorized
+[30-Dec-2019 20:30:59 America/Fortaleza] OAuth client: Accessing the API call at https://api.twitter.com/1.1/account/verify_credentials.json
+[30-Dec-2019 20:30:59 America/Fortaleza] Connecting to api.twitter.com
+[30-Dec-2019 20:30:59 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[30-Dec-2019 20:30:59 America/Fortaleza] Connecting to HTTP server IP 104.244.42.2 port 443...
+[30-Dec-2019 20:30:59 America/Fortaleza] Connected to api.twitter.com
+[30-Dec-2019 20:30:59 America/Fortaleza] C GET /1.1/account/verify_credentials.json HTTP/1.1
+[30-Dec-2019 20:30:59 America/Fortaleza] C Host: api.twitter.com
+[30-Dec-2019 20:30:59 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[30-Dec-2019 20:30:59 America/Fortaleza] C Accept: */*
+[30-Dec-2019 20:30:59 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="0ebfbc005d0f5b703d180832a7375b4e",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577748659",oauth_version="1.0",oauth_token="3065852607-xLetuldhfgfJWpjKqLWX2H6E4YE8ZiMpVoVs2XK",oauth_signature="HDtF%2Bu1w5%2FWZl5Qk8NRWXwHqn14%3D"
+[30-Dec-2019 20:30:59 America/Fortaleza] C Connection: Keep-Alive
+[30-Dec-2019 20:30:59 America/Fortaleza] C 
+[30-Dec-2019 20:31:00 America/Fortaleza] S HTTP/1.1 200 OK
+[30-Dec-2019 20:31:00 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[30-Dec-2019 20:31:00 America/Fortaleza] S content-disposition: attachment; filename=json.json
+[30-Dec-2019 20:31:00 America/Fortaleza] S content-length: 2312
+[30-Dec-2019 20:31:00 America/Fortaleza] S content-type: application/json;charset=utf-8
+[30-Dec-2019 20:31:00 America/Fortaleza] S date: Mon, 30 Dec 2019 23:31:00 GMT
+[30-Dec-2019 20:31:00 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[30-Dec-2019 20:31:00 America/Fortaleza] S last-modified: Mon, 30 Dec 2019 23:31:00 GMT
+[30-Dec-2019 20:31:00 America/Fortaleza] S pragma: no-cache
+[30-Dec-2019 20:31:00 America/Fortaleza] S server: tsa_b
+[30-Dec-2019 20:31:00 America/Fortaleza] S set-cookie: personalization_id="v1_LuUWGwx+6Pfhs8rBLVUxSQ=="; Max-Age=63072000; Expires=Wed, 29 Dec 2021 23:31:00 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 20:31:00 America/Fortaleza] S set-cookie: lang=pt; Path=/
+[30-Dec-2019 20:31:00 America/Fortaleza] S set-cookie: guest_id=v1%3A157774866001917807; Max-Age=63072000; Expires=Wed, 29 Dec 2021 23:31:00 GMT; Path=/; Domain=.twitter.com
+[30-Dec-2019 20:31:00 America/Fortaleza] S status: 200 OK
+[30-Dec-2019 20:31:00 America/Fortaleza] S strict-transport-security: max-age=631138519
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-access-level: read-write
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-connection-hash: eb32e78790bf60646568d663c2e63ef3
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-content-type-options: nosniff
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-rate-limit-limit: 75
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-rate-limit-remaining: 74
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-rate-limit-reset: 1577749560
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-response-time: 39
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-transaction: 008dba8b008d8188
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-twitter-response-tags: BouncerExempt
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[30-Dec-2019 20:31:00 America/Fortaleza] S x-xss-protection: 0
+[30-Dec-2019 20:31:00 America/Fortaleza] S 
+[30-Dec-2019 20:31:00 America/Fortaleza] S {"id":3065852607,"id_str":"3065852607","name":"Rodrigo Severo","screen_name":"severoweb","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":5,"friends_count":119,"listed_count":0,"created_at":"Mon Mar 02 02:39:59 +0000 2015","favourites_count":18,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":5,"lang":null,"status":{"created_at":"Thu Dec 05 17:51:38 +0000 2019","id":1202646725502078976,"id_str":"1202646725502078976","text":"Login with Twitter using PHP - InfoTuts https:\/\/t.co\/xy37glLKX7","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/xy37glLKX7","expanded_url":"http:\/\/www.infotuts.com\/login-twitter-using-php\/","display_url":"infotuts.com\/login-twitter-\u2026","indices":[40,63]}]},"source":"\u003ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"can_media_tag":true,"followed_by":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none","suspended":false,"needs_phone_verification":false}
+[30-Dec-2019 20:31:00 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[31-Dec-2019 13:32:33 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[31-Dec-2019 13:32:33 America/Fortaleza] OAuth client: The OAuth access token is not set
+[31-Dec-2019 13:32:33 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[31-Dec-2019 13:32:33 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[31-Dec-2019 13:32:33 America/Fortaleza] Connecting to api.twitter.com
+[31-Dec-2019 13:32:33 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[31-Dec-2019 13:32:33 America/Fortaleza] Connecting to HTTP server IP 104.244.42.130 port 443...
+[31-Dec-2019 13:32:33 America/Fortaleza] Connected to api.twitter.com
+[31-Dec-2019 13:32:33 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[31-Dec-2019 13:32:33 America/Fortaleza] C Host: api.twitter.com
+[31-Dec-2019 13:32:33 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[31-Dec-2019 13:32:33 America/Fortaleza] C Accept: */*
+[31-Dec-2019 13:32:33 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="1b5a5d00472d3af650f69bec9cf41361",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577809953",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandoemocao.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="WXQOfhLwROuZLMLEEmZecMQz47o%3D"
+[31-Dec-2019 13:32:33 America/Fortaleza] C Connection: Keep-Alive
+[31-Dec-2019 13:32:33 America/Fortaleza] C 
+[31-Dec-2019 13:32:34 America/Fortaleza] S HTTP/1.1 200 OK
+[31-Dec-2019 13:32:34 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[31-Dec-2019 13:32:34 America/Fortaleza] S content-length: 121
+[31-Dec-2019 13:32:34 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[31-Dec-2019 13:32:34 America/Fortaleza] S content-type: text/html;charset=utf-8
+[31-Dec-2019 13:32:34 America/Fortaleza] S date: Tue, 31 Dec 2019 16:32:34 GMT
+[31-Dec-2019 13:32:34 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[31-Dec-2019 13:32:34 America/Fortaleza] S last-modified: Tue, 31 Dec 2019 16:32:34 GMT
+[31-Dec-2019 13:32:34 America/Fortaleza] S ml: A
+[31-Dec-2019 13:32:34 America/Fortaleza] S pragma: no-cache
+[31-Dec-2019 13:32:34 America/Fortaleza] S server: tsa_b
+[31-Dec-2019 13:32:34 America/Fortaleza] S set-cookie: personalization_id="v1_D9p4QQFL3vPNSc+WqC16nQ=="; Max-Age=63072000; Expires=Thu, 30 Dec 2021 16:32:34 GMT; Path=/; Domain=.twitter.com
+[31-Dec-2019 13:32:34 America/Fortaleza] S set-cookie: guest_id=v1%3A157780995401289407; Max-Age=63072000; Expires=Thu, 30 Dec 2021 16:32:34 GMT; Path=/; Domain=.twitter.com
+[31-Dec-2019 13:32:34 America/Fortaleza] S status: 200 OK
+[31-Dec-2019 13:32:34 America/Fortaleza] S strict-transport-security: max-age=631138519
+[31-Dec-2019 13:32:34 America/Fortaleza] S x-connection-hash: 813729a49a321736df47e7156268158b
+[31-Dec-2019 13:32:34 America/Fortaleza] S x-content-type-options: nosniff
+[31-Dec-2019 13:32:34 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[31-Dec-2019 13:32:34 America/Fortaleza] S x-response-time: 22
+[31-Dec-2019 13:32:34 America/Fortaleza] S x-transaction: 0008df6d005164e3
+[31-Dec-2019 13:32:34 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[31-Dec-2019 13:32:34 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[31-Dec-2019 13:32:34 America/Fortaleza] S x-xss-protection: 0
+[31-Dec-2019 13:32:34 America/Fortaleza] S 
+[31-Dec-2019 13:32:34 America/Fortaleza] S oauth_token=30a7KAAAAAAA03lZAAABb1zNROk&oauth_token_secret=fwgr6eA4jxSjY0boj64eSphr8DXFOdcK&oauth_callback_confirmed=true
+[31-Dec-2019 13:32:34 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[31-Dec-2019 13:32:34 America/Fortaleza] OAuth client: Redirecting to OAuth authorize page https://api.twitter.com/oauth/authenticate?oauth_token=30a7KAAAAAAA03lZAAABb1zNROk
+[31-Dec-2019 13:32:35 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[31-Dec-2019 13:32:35 America/Fortaleza] OAuth client: The OAuth token is not yet authorized
+[31-Dec-2019 13:32:35 America/Fortaleza] OAuth client: Checking the OAuth token and verifier
+[31-Dec-2019 13:32:35 America/Fortaleza] OAuth client: Accessing the OAuth access token at https://api.twitter.com/oauth/access_token
+[31-Dec-2019 13:32:35 America/Fortaleza] Connecting to api.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[31-Dec-2019 13:32:35 America/Fortaleza] Connecting to HTTP server IP 104.244.42.130 port 443...
+[31-Dec-2019 13:32:35 America/Fortaleza] Connected to api.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] C GET /oauth/access_token HTTP/1.1
+[31-Dec-2019 13:32:35 America/Fortaleza] C Host: api.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[31-Dec-2019 13:32:35 America/Fortaleza] C Accept: */*
+[31-Dec-2019 13:32:35 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="3a8694d2352a678933b329bcc76e4619",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577809955",oauth_version="1.0",oauth_token="30a7KAAAAAAA03lZAAABb1zNROk",oauth_verifier="hAO3jp73qOPH47c5kMK67KXC1Q19t7qw",oauth_signature="ikFjr2ocnOeqqDuDP3TY7oJyXAc%3D"
+[31-Dec-2019 13:32:35 America/Fortaleza] C Connection: Keep-Alive
+[31-Dec-2019 13:32:35 America/Fortaleza] C 
+[31-Dec-2019 13:32:35 America/Fortaleza] S HTTP/1.1 200 OK
+[31-Dec-2019 13:32:35 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[31-Dec-2019 13:32:35 America/Fortaleza] S content-length: 168
+[31-Dec-2019 13:32:35 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[31-Dec-2019 13:32:35 America/Fortaleza] S content-type: text/html;charset=utf-8
+[31-Dec-2019 13:32:35 America/Fortaleza] S date: Tue, 31 Dec 2019 16:32:35 GMT
+[31-Dec-2019 13:32:35 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[31-Dec-2019 13:32:35 America/Fortaleza] S last-modified: Tue, 31 Dec 2019 16:32:35 GMT
+[31-Dec-2019 13:32:35 America/Fortaleza] S ml: A
+[31-Dec-2019 13:32:35 America/Fortaleza] S pragma: no-cache
+[31-Dec-2019 13:32:35 America/Fortaleza] S server: tsa_b
+[31-Dec-2019 13:32:35 America/Fortaleza] S set-cookie: personalization_id="v1_5odBkNbeL6PSv/IjRbKjOw=="; Max-Age=63072000; Expires=Thu, 30 Dec 2021 16:32:35 GMT; Path=/; Domain=.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] S set-cookie: guest_id=v1%3A157780995553989924; Max-Age=63072000; Expires=Thu, 30 Dec 2021 16:32:35 GMT; Path=/; Domain=.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] S status: 200 OK
+[31-Dec-2019 13:32:35 America/Fortaleza] S strict-transport-security: max-age=631138519
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-connection-hash: 1f3c553fe75c6886c4192cce643e29f7
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-content-type-options: nosniff
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-response-time: 50
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-transaction: 0013f14000ef2c16
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-xss-protection: 0
+[31-Dec-2019 13:32:35 America/Fortaleza] S 
+[31-Dec-2019 13:32:35 America/Fortaleza] S oauth_token=3065852607-xLetuldhfgfJWpjKqLWX2H6E4YE8ZiMpVoVs2XK&oauth_token_secret=n7DOqNYcfVYiEqUcC53pM7reBEZzbdfXZvBYOhoY39dFA&user_id=3065852607&screen_name=severoweb
+[31-Dec-2019 13:32:35 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] OAuth client: The OAuth token was authorized
+[31-Dec-2019 13:32:35 America/Fortaleza] OAuth client: Accessing the API call at https://api.twitter.com/1.1/account/verify_credentials.json
+[31-Dec-2019 13:32:35 America/Fortaleza] Connecting to api.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[31-Dec-2019 13:32:35 America/Fortaleza] Connecting to HTTP server IP 104.244.42.130 port 443...
+[31-Dec-2019 13:32:35 America/Fortaleza] Connected to api.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] C GET /1.1/account/verify_credentials.json HTTP/1.1
+[31-Dec-2019 13:32:35 America/Fortaleza] C Host: api.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[31-Dec-2019 13:32:35 America/Fortaleza] C Accept: */*
+[31-Dec-2019 13:32:35 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="3c5122393f1a86907b3a46e91a6ddf9f",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1577809955",oauth_version="1.0",oauth_token="3065852607-xLetuldhfgfJWpjKqLWX2H6E4YE8ZiMpVoVs2XK",oauth_signature="xzoLBFEDDHyHgxFWV5Yb3S6IYFI%3D"
+[31-Dec-2019 13:32:35 America/Fortaleza] C Connection: Keep-Alive
+[31-Dec-2019 13:32:35 America/Fortaleza] C 
+[31-Dec-2019 13:32:35 America/Fortaleza] S HTTP/1.1 200 OK
+[31-Dec-2019 13:32:35 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[31-Dec-2019 13:32:35 America/Fortaleza] S content-disposition: attachment; filename=json.json
+[31-Dec-2019 13:32:35 America/Fortaleza] S content-length: 2312
+[31-Dec-2019 13:32:35 America/Fortaleza] S content-type: application/json;charset=utf-8
+[31-Dec-2019 13:32:35 America/Fortaleza] S date: Tue, 31 Dec 2019 16:32:35 GMT
+[31-Dec-2019 13:32:35 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[31-Dec-2019 13:32:35 America/Fortaleza] S last-modified: Tue, 31 Dec 2019 16:32:35 GMT
+[31-Dec-2019 13:32:35 America/Fortaleza] S pragma: no-cache
+[31-Dec-2019 13:32:35 America/Fortaleza] S server: tsa_b
+[31-Dec-2019 13:32:35 America/Fortaleza] S set-cookie: personalization_id="v1_it6K1v8vdJ2VrEd0ueOdww=="; Max-Age=63072000; Expires=Thu, 30 Dec 2021 16:32:35 GMT; Path=/; Domain=.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] S set-cookie: lang=pt; Path=/
+[31-Dec-2019 13:32:35 America/Fortaleza] S set-cookie: guest_id=v1%3A157780995575803163; Max-Age=63072000; Expires=Thu, 30 Dec 2021 16:32:35 GMT; Path=/; Domain=.twitter.com
+[31-Dec-2019 13:32:35 America/Fortaleza] S status: 200 OK
+[31-Dec-2019 13:32:35 America/Fortaleza] S strict-transport-security: max-age=631138519
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-access-level: read-write
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-connection-hash: 0b217b47017716476345d1d418b48cfe
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-content-type-options: nosniff
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-rate-limit-limit: 75
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-rate-limit-remaining: 74
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-rate-limit-reset: 1577810855
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-response-time: 33
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-transaction: 00911445000fbc22
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-twitter-response-tags: BouncerExempt
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[31-Dec-2019 13:32:35 America/Fortaleza] S x-xss-protection: 0
+[31-Dec-2019 13:32:35 America/Fortaleza] S 
+[31-Dec-2019 13:32:35 America/Fortaleza] S {"id":3065852607,"id_str":"3065852607","name":"Rodrigo Severo","screen_name":"severoweb","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":5,"friends_count":119,"listed_count":0,"created_at":"Mon Mar 02 02:39:59 +0000 2015","favourites_count":18,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":5,"lang":null,"status":{"created_at":"Thu Dec 05 17:51:38 +0000 2019","id":1202646725502078976,"id_str":"1202646725502078976","text":"Login with Twitter using PHP - InfoTuts https:\/\/t.co\/xy37glLKX7","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/xy37glLKX7","expanded_url":"http:\/\/www.infotuts.com\/login-twitter-using-php\/","display_url":"infotuts.com\/login-twitter-\u2026","indices":[40,63]}]},"source":"\u003ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"can_media_tag":true,"followed_by":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none","suspended":false,"needs_phone_verification":false}
+[31-Dec-2019 13:32:35 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[17-Jan-2020 17:25:59 America/Fortaleza] OAuth client: Checking the OAuth token authorization state
+[17-Jan-2020 17:25:59 America/Fortaleza] OAuth client: The OAuth access token is not set
+[17-Jan-2020 17:25:59 America/Fortaleza] OAuth client: Requesting the unauthorized OAuth token
+[17-Jan-2020 17:25:59 America/Fortaleza] OAuth client: Accessing the OAuth request token at https://api.twitter.com/oauth/request_token
+[17-Jan-2020 17:25:59 America/Fortaleza] Connecting to api.twitter.com
+[17-Jan-2020 17:25:59 America/Fortaleza] Resolving HTTP server domain "api.twitter.com"...
+[17-Jan-2020 17:25:59 America/Fortaleza] Connecting to HTTP server IP 104.244.42.2 port 443...
+[17-Jan-2020 17:25:59 America/Fortaleza] Connected to api.twitter.com
+[17-Jan-2020 17:25:59 America/Fortaleza] C GET /oauth/request_token HTTP/1.1
+[17-Jan-2020 17:25:59 America/Fortaleza] C Host: api.twitter.com
+[17-Jan-2020 17:25:59 America/Fortaleza] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.108 $)
+[17-Jan-2020 17:25:59 America/Fortaleza] C Accept: */*
+[17-Jan-2020 17:25:59 America/Fortaleza] C Authorization: OAuth oauth_consumer_key="oYua5GJ5mCXxpB84qUd6iGjIg",oauth_nonce="543bb9e062c50a8ddce7c540809d95a2",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1579292759",oauth_version="1.0",oauth_callback="http%3A%2F%2Fminerandoemocao.com.br%2Ftwitter-connect-login-system-php-mysql%2Ftwitter_login.php",oauth_signature="r9LSz6GTX5yuqRfChNaqo5TY%2Bpo%3D"
+[17-Jan-2020 17:25:59 America/Fortaleza] C Connection: Keep-Alive
+[17-Jan-2020 17:25:59 America/Fortaleza] C 
+[17-Jan-2020 17:25:59 America/Fortaleza] S HTTP/1.1 200 OK
+[17-Jan-2020 17:25:59 America/Fortaleza] S cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[17-Jan-2020 17:25:59 America/Fortaleza] S content-length: 121
+[17-Jan-2020 17:25:59 America/Fortaleza] S content-security-policy: default-src 'none'; connect-src 'self'; font-src https://abs.twimg.com https://abs-0.twimg.com data:; frame-src 'self' twitter:; img-src https://abs.twimg.com https://*.twimg.com https://pbs.twimg.com data:; media-src 'none'; object-src 'none'; script-src https://abs.twimg.com https://abs-0.twimg.com https://twitter.com https://mobile.twitter.com; style-src https://abs.twimg.com https://abs-0.twimg.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVWG6Z3JNY%3D%3D%3D%3D%3D%3D&ro=false;
+[17-Jan-2020 17:25:59 America/Fortaleza] S content-type: text/html;charset=utf-8
+[17-Jan-2020 17:25:59 America/Fortaleza] S date: Fri, 17 Jan 2020 20:25:59 GMT
+[17-Jan-2020 17:25:59 America/Fortaleza] S expires: Tue, 31 Mar 1981 05:00:00 GMT
+[17-Jan-2020 17:25:59 America/Fortaleza] S last-modified: Fri, 17 Jan 2020 20:25:59 GMT
+[17-Jan-2020 17:25:59 America/Fortaleza] S ml: A
+[17-Jan-2020 17:25:59 America/Fortaleza] S pragma: no-cache
+[17-Jan-2020 17:25:59 America/Fortaleza] S server: tsa_b
+[17-Jan-2020 17:25:59 America/Fortaleza] S set-cookie: personalization_id="v1_Ml6Whlg+aAbVVeWVFiF3tw=="; Max-Age=63072000; Expires=Sun, 16 Jan 2022 20:25:59 GMT; Path=/; Domain=.twitter.com
+[17-Jan-2020 17:25:59 America/Fortaleza] S set-cookie: guest_id=v1%3A157929275945230382; Max-Age=63072000; Expires=Sun, 16 Jan 2022 20:25:59 GMT; Path=/; Domain=.twitter.com
+[17-Jan-2020 17:25:59 America/Fortaleza] S status: 200 OK
+[17-Jan-2020 17:25:59 America/Fortaleza] S strict-transport-security: max-age=631138519
+[17-Jan-2020 17:25:59 America/Fortaleza] S x-connection-hash: c2be19dcfd10c3dad60a4a024ed5fc96
+[17-Jan-2020 17:25:59 America/Fortaleza] S x-content-type-options: nosniff
+[17-Jan-2020 17:25:59 America/Fortaleza] S x-frame-options: SAMEORIGIN
+[17-Jan-2020 17:25:59 America/Fortaleza] S x-response-time: 139
+[17-Jan-2020 17:25:59 America/Fortaleza] S x-transaction: 00bee8ae00c77e50
+[17-Jan-2020 17:25:59 America/Fortaleza] S x-twitter-response-tags: BouncerCompliant
+[17-Jan-2020 17:25:59 America/Fortaleza] S x-ua-compatible: IE=edge,chrome=1
+[17-Jan-2020 17:25:59 America/Fortaleza] S x-xss-protection: 0
+[17-Jan-2020 17:25:59 America/Fortaleza] S 
+[17-Jan-2020 17:25:59 America/Fortaleza] S oauth_token=PxzTwwAAAAAA03lZAAABb7UvFak&oauth_token_secret=A7vzequLi0V1peqI7la7RbyhtzbLXWAc&oauth_callback_confirmed=true
+[17-Jan-2020 17:25:59 America/Fortaleza] Keeping the connection alive to api.twitter.com
+[17-Jan-2020 17:25:59 America/Fortaleza] OAuth client: Redirecting to OAuth authorize page https://api.twitter.com/oauth/authenticate?oauth_token=PxzTwwAAAAAA03lZAAABb7UvFak
