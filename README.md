@@ -1,2 +1,1 @@
 # minerando-emocoes-twitter
-teste
